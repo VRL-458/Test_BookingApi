@@ -79,7 +79,7 @@ public class TestPost {
 
 
         //status code for Unprocessable Entity
-        response.then().assertThat().statusCode(402);
+        response.then().assertThat().statusCode(422);
 
 
     }
